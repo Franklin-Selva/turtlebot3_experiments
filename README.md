@@ -47,10 +47,6 @@ roslaunch turtlebot3_experimental turtlebot3_slam_autonomous.launch
 
 ## PROCEDURE FOR AMCL
 
-1. To start the robot in the simulation, run
+1. To start the robot in the simulation, run `roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
-
-2. To start AMCL node, run
-
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+2. To start AMCL node, run `roslaunch turtlebot3_navigation turtlebot3_navigation.launch`
