@@ -1,0 +1,15 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="scan_topic"     default="scan"/>
+  <arg name="initial_pose_a" default="0.0"/>
+  <arg name="initial_pose_x" default="1.858074"/>
+  <arg name="initial_pose_y" default="1.046237"/>
+  
+  <!-- <arg name="z_pos" default="1.046237"/> -->
+
+  <!-- AMCL -->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <!-- <arg name="map_file" value="$(find turtlebot3_experimental)/maps/mymap.yaml" /> -->
+  </include>
+
+</launch>
